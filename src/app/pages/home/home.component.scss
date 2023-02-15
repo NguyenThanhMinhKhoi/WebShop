@@ -1,0 +1,88 @@
+
+.new{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.example-card {
+// border: 30px solid;
+    width: 285px;
+    transition: 0.5s;
+    // height: 600px;
+  }
+
+.example-card:hover{
+//  background-color: black;  
+transform: scale(1.05);
+  padding-right: 2px;
+  padding: 10px;
+  // width: 310px;
+  transition: 0.5s;
+  }
+  
+  // .example-header-image {
+  //   display: flex;
+  //   background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  //   background-size: cover;
+  //   height: auto;
+  //   display: grid;
+  //   grid-gap: 1rem;
+  //   grid-template-columns: repeat(3, 1fr);
+  //   display: grid;
+  //   grid-gap: 1rem;
+  //   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  // }
+  .sale{
+    // border : solid;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 30px;
+    width: fit-content;
+    color: red;
+    // background-color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    ;
+    
+  }
+  .price{
+    // border : solid;
+
+  //  width:fit-content;  
+    // background-color: antiquewhite;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    // padding-right: 100px;
+    margin-right: 900px;
+    color : red;
+    font-family: 'Roboto', sans-serif;
+  
+    
+  }
+  .pricemove{
+    padding-left: 102px;
+  }
+  .detailbt{
+  width: fit-content;
+  height: fit-content ;
+    font-size: 17px;
+   margin-left: 130px;
+  //  border: 3px solid;
+   font-family: 'Roboto', sans-serif;
+    
+  }
+  .buybt{
+    // border: 1px solid;
+    font-size: 17px;
+    width: fit-content;
+    height: fit-content ;
+    font-family: 'Roboto', sans-serif;
+    // background-color: aqua;
+
+
+  }
+
+
+
+

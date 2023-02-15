@@ -1,0 +1,17 @@
+<div class="container">
+
+    <div *ngFor="let item of this.cartservice.cart">
+        <img class="example-card" [src]="item.photoURL">
+        <h2>"{{item.name}}"</h2>
+        <h3 class="sale">{{item.sale}}</h3>
+        <h4 class="price">{{item.price}}</h4>
+        <button class="tt">Thanh toán</button>
+        <button class="huy">Hủy</button>
+
+
+
+
+
+    </div>
+    
+</div>  
